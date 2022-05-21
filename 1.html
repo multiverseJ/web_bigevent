@@ -10,22 +10,22 @@
 
 <body>
     <script>
-        class Father {
-            // say(t) {
-            //     console.log(t,this,t.say,this.say,this == t, this.say == t.say)
-            // }
+        class Person {
+            say() { 
+                console.log(1);
+            }
         }
+        class Father extends Person { }
         class Son extends Father {
             constructor(x, y) {
                 super()
-                super.say(this)
             }
             say() {
-                // console.log(1);
-             }
+                super.say()
+            }
         }
-        var obj = new Son()
-        obj.say()
+        son=new Son
+        son.say()
     </script>
 </body>
 
