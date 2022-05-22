@@ -60,3 +60,7 @@ $("#btnLogout").click(() => {
 
 // 调用 getUserInfo 函数获取用户基本信息
 getUserInfo();
+
+// function change(){
+//   $('#art_list').addClass('layui-this').next().removeClass('layui-this')
+// }

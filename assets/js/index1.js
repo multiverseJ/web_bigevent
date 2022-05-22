@@ -42,3 +42,6 @@ const render = function(user){
         $('.text-avatar').html(firstname).show()
     }
 }
+function change(){
+    $('#art_list').addClass('layui-this').next().removeClass('layui-this')
+  }
